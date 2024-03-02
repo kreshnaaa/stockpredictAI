@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Page</title>
+    <style>
+        /* Add some basic styles to your navigation bar */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            margin: 5px;
+            color: #fff;
+            padding: 10px 0;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .navbar {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            display: block;
+            /* margin-bottom: 135px; */
+        }
+        .search-bar {
+            display: flex;
+            align-items: center;
+            background-color: #eee;
+            padding: 5px 10px;
+            border-radius: 20px;
+        }
+        .search-bar input {
+            border: none;
+            outline: none;
+            padding: 5px;
+        }
+        .notification {
+            margin-left: 20px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        .user-icon {
+            font-size: 20px;
+            cursor: pointer;
+        }
+        /* Add styles for the side navigation menu */
+        .sidenav {
+            background-color: #333;
+            color: #fff;
+            width: 150px;
+            padding: 20px;
+        }
+        .sidenav a {
+            color: #fff;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 135px;
+        }
+        /* .sidenav a:hover {
+            text-decoration: underline;
+        } */
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">DM WorkBench</div>
+            <nav class="navbar">
+                <a href="home.html">Home</a>
+            </nav>   
+            <div class="search-bar">
+                <input type="text" placeholder="Search...">
+            </div>
+            <div class="notification">🔔</div>
+            <div class="user-icon">👤</div>
+        </div>
+    </header>
+    <div>
+        <!-- Side Navigation Menu -->
+   <nav class="sidenav">
+       <a href="piplines.html">Pipelines</a>
+       <a href="#">Models</a>
+       <a href="#">Destination</a>
+   </nav>
+   </div>
+    <!-- Your page content goes here -->
+
+    <script>
+        // You can add JavaScript functionality here if needed
+    </script>
+</body>
+</html>
